@@ -1,0 +1,30 @@
+<style>
+    .welcome{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        height: 50vh;
+        width: 80vw;
+    }
+    .card-body{
+        display: flex;
+        flex-direction: column;
+    }
+    .card-body a span{
+        height: 40px;
+        width: 250px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+</style>
+<title>Welcome!</title>
+<div class="welcome text-center my-4">
+    <div class="card" style="width: 18rem;">
+        <h1 class="text-center"><span class="badge badge-info">Welcome</span></h1>
+        <div class="card-body my-4">
+         <a href="/users/login"><span class="badge badge-success">Login</span></a>
+         <a href="/users/register"><span class="badge badge-success">Register</span></a>
+      </div>
+</div>
